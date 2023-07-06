@@ -170,6 +170,13 @@ border-bottom-right-radius: 25px;
 
     .principal-banner .contenido .der-chip .descripcion{
         font-size: 55px;
+        justify-content: start;
+        align-items: flex-start;
+        text-align: justify;
+    }
+
+    .izq-chip .descripcion .texto{
+        text-align: start;
     }
 
     .principal-banner .contenido .izq-chip .nombre{

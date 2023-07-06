@@ -79,6 +79,13 @@
     border-left: var(--border);
     background-color: var(--color_azul);
     color: var(--color_blanco);
+    border: var(--border_blanco);
+    -webkit-border-top-right-radius: 25px;
+-webkit-border-bottom-right-radius: 25px;
+-moz-border-radius-topright: 25px;
+-moz-border-radius-bottomright: 25px;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
 }
 
 .chip .der-chip .descripcion{
@@ -94,6 +101,16 @@
 @media screen and (max-width:1200px) {
     .principal-banner .contenido {
         padding: 0px 7.5% 0 7.5%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .principal-banner .contenido .der-chip .descripcion{
+        font-size: 100px;
+    }
+
+    .principal-banner .contenido .izq-chip .nombre{
+        font-size: 125px;
     }
 }
 
@@ -117,4 +134,80 @@
         padding: 0px 2.5% 0 2.5%;
     }
 
+    .chip .izq-chip{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principal-banner .contenido .der-chip .descripcion{
+        font-size: 90px;
+    }
+
+    .principal-banner .contenido .izq-chip .nombre{
+        font-size: 105px;
+    }
+
+    
+
+    
 }
+
+@media screen and (max-width:750px) {
+    .principal-banner .contenido .izq-chip .nombre{
+        font-size: 95px;
+    }
+
+}
+
+
+@media screen and (max-width:650px) {
+    .chip .izq-chip{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principal-banner .contenido .der-chip .descripcion{
+        font-size: 55px;
+    }
+
+    .principal-banner .contenido .izq-chip .nombre{
+        font-size: 90px;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .izq-chip .descripcion{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .principal-banner .contenido{
+        width: 100%;
+        height: 75vh;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .principal-banner .contenido .izq-chip .nombre{
+        font-size: 70px;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .principal-banner .contenido .der-chip .descripcion{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .principal-banner .contenido .izq-chip .nombre{
+        font-size: 60px;
+        align-items: flex-end;
+        padding: 10px;
+        overflow: hidden;
+    }
+}
+

@@ -26,6 +26,21 @@
     --border_amarillo: 2.5px solid var(--color_amarillo);
 }
 
+/*  */
+/* Barrita de Scrolll */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--color_blanco);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--color_azul);
+  }
+  
+
 
 ul{
     color: inherit;

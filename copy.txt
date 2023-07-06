@@ -1,0 +1,104 @@
+-	Navegación
+o	Logo
+o	Kevin 
+o	Santiago
+	Sobre mi 
+	Educación 
+	Proyectos
+	Blog
+	Contacto
+	Empresas
+-	Banner principal
+o	Kevin
+o	Santiago
+o	Ing. Sistemas, Tec. Comercio Electrónico, UX/UI Diseñador y Desarrollador Web
+	Portafolio
+-	CTA BOTONES
+o	Talento disponible
+	Contacto
+	Descargar hoja de vida
+•	Si te ha gustado mi portafolio puedes ver más sobre mi trayectoria profesional y mis habilidades destacadas descargando mi hoja de vida o contacta conmigo.
+-	Sobre mí
+o	01
+o	Descripción profesional sobre mi carrera y mis objetivos futuros.
+-	K
+o	Soy Kevin Santiago, estudiante de ingeniería de sistemas y técnico en comercio electrónico en Santander Colombia. Me apasiona el desarrollo web y diseño de interfaces, y he trabajado en proyectos como Oslo Cafe y The Kestore, enfocándome en el diseño minimalista y la implementación de conceptos de diseño responsivo.
+o	Mi objetivo a largo plazo es seguir creciendo profesionalmente en áreas de la tecnología y de la información, con el fin de convertirme en un desarrollador de plataformas web o aplicaciones móviles, e incluso crear mi propia empresa. En mi tiempo libre, disfruto de la lectura, la música y la pintura.
+-	Sigue
+mis redes
+-	Estudios profesionales
+o	02
+o	Información sobre mi trayectoria académica, profesional y técnica.
+o	Ingeniería de sistemas
+	UNICIENCIA
+•	Carrera profesional como ingeniero de sistemas en la universidad de ciencia y desarrollo UNICIENCIA en Bucaramanga Santander. 
+2020 – 2024
+o	Técnica en comercio electrónico
+	FITEC
+•	Carrera técnica de tecnicatura en comercio electrónico en FITEC ubicada en la ciudad de Bucaramanga Santander.
+2020 – 2024
+-	Cursos y certificados
+o	Cursos y certificados realizados para complementar mis estudios.
+	Desarrollo web frontend
+•	Alura Latam + Oracle
+o	ver certificado
+o	…
+-	CTA BOTONES
+o	Talento disponible
+	Contacto
+	Descargar hoja de vida
+•	Si te ha gustado mi portafolio puedes ver más sobre mi trayectoria profesional y mis habilidades destacadas descargando mi hoja de vida o contacta conmigo.
+-	Proyectos
+o	03
+o	Evidencias de algunos proyectos que he realizado a lo largo de mi carrera.
+	Landing page
+•	Oslo Café
+o	En este proyecto, he diseñado y desarrollado una página web para esta cafetería que ofrece a los clientes una experiencia de usuario única y atractiva.
+	Ver demo
+	E-commerce
+•	Geek Store
+o	Alura geek store es un proyecto de replicar un diseño de página tipo e-commerce como proyecto para Alura - Oracle Next Education.
+	Ver demo
+	Application
+•	To Do App
+o	Aplicación de lista de tareas interactiva con la posibilidad de editar y eliminar cualquier tarea, desarrollada con Java Scrip.
+	Ver demo
+-	CTA proyectos
+o	¿más proyectos?
+	Descubre otros proyectos en los que trabajo y ponte en contacto conmingo.
+•	Sigue
+mis redes
+-	Blog de Kevin Santiago
+o	El Blog de Kevin Santiago es un blog personal, en el podrás encontrar algunos de mis trabajos y sus procesos, algunos tips e historia personal sobre mis estudios y como me inspiro para mejorar cada día.
+	Visitar blog
+-	CTA BOTONES
+o	Talento disponible
+	Contacto
+	Descargar hoja de vida
+•	Si te ha gustado mi portafolio puedes ver más sobre mi trayectoria profesional y mis habilidades destacadas descargando mi hoja de vida o contacta conmigo.
+-	Contacto
+o	05
+o	Formulario de contacto y algunas de mis redes sociales.
+	Nombre completo
+	Número telefónico
+	Correo electrónico
+	Ciudad
+	Mensaje
+•	Enviar Mensaje
+-	Menú
+o	Sobre Mi
+o	Educación
+o	Proyectos
+o	Blog
+o	Contacto
+-	Redes
+o	GitHub
+o	Linked In
+o	Instagram
+o	Twitter
+o	Behance
+-	Kevin Santiago
+Suarez Ortega
+o	Soy Kevin Santiago, estudiante de ingeniería de sistemas y técnico en comercio electrónico en Santander Colombia.
+-	Página desarrollada por
+Kevin Santiago Suarez Ortega

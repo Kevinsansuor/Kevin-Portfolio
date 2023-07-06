@@ -1,0 +1,136 @@
+:root{
+    /* Fuentes */
+    --fuente_prata: 'Prata', serif;
+    --fuente_rokkitt: 'Rokkitt', serif;
+
+    /* Paleta de colores */
+    --color_gris: #353535;
+    --color_amarillo: #fda312;
+    --color_hueso: #e6e6e6;
+    --color_azul: #14213e;
+    --color_blanco: #ffffff;
+
+    /* Tamaños fuentes */
+    --letra_mayus: 500px;
+    --letra_banner: 150px;
+    --letra_banner_portfolio: 140px;
+    --letra_header:96px;
+    --letra_32:32px;
+    --letra_normal:20px;
+    --letra_18: 18px;
+
+    /* Bordes */
+    --border: 5px solid var(--color_azul);
+    --border_mitad: 2.5px solid var(--color_azul);
+    --border_blanco: 2.5px solid var(--color_blanco);
+    --border_amarillo: 2.5px solid var(--color_amarillo);
+}
+
+
+ul{
+    color: inherit;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: var(--color_hueso);
+    font-family: var(--fuente_prata);
+    font-size: var(--letra_normal);
+    color: var(--color_azul);
+    transition: .5s all;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.cajas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.c1{
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 25px;
+}
+
+.c2{
+    width: 100%;
+    max-width: 650px;
+    height: 100px;
+    background-color: greenyellow;
+    border-bottom: #14213e solid;
+}
+
+.c3{
+    max-width: 480px;
+    height: 100px;
+    background-color: #fda312;
+    border-bottom: #14213e solid;
+
+}
+
+.c4{
+    max-width: 400px;
+    height: 100px;
+    background-color: aqua;
+    border-bottom: #14213e solid;
+    border-right: solid red;
+}
+
+.c5{
+    max-width: 1000px;
+    height: 100px;
+    background-color: brown;
+    border-bottom: #14213e solid;
+    border-right: solid red;
+}
+
+.solapador{
+    background-color: #0f1e3f;
+    transition: all 1.5s;
+    animation: menu 2.5s .5s backwards;
+}
+
+.solapador.active{
+    width: 100%;
+    height: 100vh;
+    animation: menu 2.5s .5s backwards;
+    transition: all 1.5s ease-in-out;
+
+}
+
+@keyframes menu {
+
+    0%{
+        opacity: 0;
+        backdrop-filter: blur(0px);
+    }
+
+    50%{
+        opacity: .5;
+        backdrop-filter: blur(2.5px);
+    }
+    
+    100%{
+        opacity: 1;
+        backdrop-filter: blur(5px);
+    }
+}

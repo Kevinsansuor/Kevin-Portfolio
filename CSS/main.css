@@ -270,6 +270,6 @@ body{
     }
 
     .header-titulo .descripcion-titulo{
-        max-width: 85%;
+        max-width: 100%;
     }
 }

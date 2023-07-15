@@ -27,7 +27,7 @@
 }
 
 /*  */
-/* Barrita de Scrolll */
+/* Barrita de Scroll */
 ::-webkit-scrollbar {
     width: 10px;
   }
@@ -132,6 +132,22 @@ body{
 
 }
 
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.container .contenido{
+    width: 100%;
+    margin: 0 15%;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 @keyframes menu {
 
     0%{
@@ -147,5 +163,26 @@ body{
     100%{
         opacity: 1;
         backdrop-filter: blur(5px);
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .container .contenido{
+        width: 100%;
+        margin: 0 7.5%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container .contenido{
+        width: 100%;
+        margin: 0 5.5%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .container .contenido{
+        width: 100%;
+        margin: 0 2.5%;
     }
 }

@@ -46,6 +46,7 @@
     display: flex;
     font-size: var(--letra_banner);
     color: var(--color_azul);
+    background-color: var();
 }
 
 .izq-chip .descripcion{

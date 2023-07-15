@@ -148,6 +148,67 @@ body{
     flex-wrap: wrap;
 }
 
+.container .contenido .header-titulo{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+
+.header-titulo .titulo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.header-titulo .descripcion-titulo{
+    max-width: 45%;
+    height: auto;
+    text-align: start;
+}
+
+.titulo .indice{
+    height: auto;
+    padding-bottom: 25px;
+    border-bottom: var(--border);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: var(--letra_banner);
+    text-transform: capitalize;
+}
+
+.titulo .number{
+    background-color: var(--color_azul);
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo .number .numero{
+    font-family: var(--fuente_rokkitt);
+    font-weight: 900;
+    display: flex;
+    margin: auto;
+    text-align: end;
+    font-size: var(--letra_banner);
+    color: var(--color_blanco);
+    line-height: -96px;
+    transform: rotate(90deg);
+    transform: translateY(0px); transform: translateX(-0px);
+    writing-mode: vertical-lr;
+    padding: 10px;
+}
+
+
+
+
+
 @keyframes menu {
 
     0%{
@@ -180,9 +241,35 @@ body{
     }
 }
 
+@media screen and (max-width:950px) {
+    .titulo .indice{
+        font-size: var(--letra_header);
+    }
+
+    .titulo .number .numero{
+        font-size: var(--letra_header);
+    }
+}
+
 @media screen and (max-width:850px) {
     .container .contenido{
         width: 100%;
         margin: 0 2.5%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .titulo .indice{
+        font-size: var(--letra_32);
+        display: flex;
+        align-items: center;
+    }
+
+    .titulo .number .numero{
+        font-size: var(--letra_32);
+    }
+
+    .header-titulo .descripcion-titulo{
+        max-width: 85%;
     }
 }

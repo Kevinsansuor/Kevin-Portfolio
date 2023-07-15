@@ -4,6 +4,9 @@ let recargar = document.querySelector('.logo');
 let contacto = document.querySelector('.cta');
 let ajustador = document.querySelector('.solapador');
 
+let link_sobre_mi = document.querySelector('.link.sobre-mi');
+
+
 menu.onclick = () =>{
     setTimeout(function(){
     }, 1000);
@@ -33,3 +36,7 @@ contacto.onclick = () =>{
     window.location.href = '#contacto';
 };
 
+link_sobre_mi.onclick =()=>{
+    console.log('lola');
+    window.location.href = '#sobre-mi'
+}

@@ -43,12 +43,22 @@
     cursor: pointer;
     padding: 15px;
     transition: all .5s ease;
+    box-shadow:  5px 1px 12px #111c355a,
+             -2px -1px 12px #17264761;
 }
 
 .botones .btn-contacto:hover{
     background-color: var(--color_blanco);
     color: var(--color_azul);
     border: var(--border_mitad);
+    box-shadow:  5px 1px 12px #111c355a,
+             -6px -1px 12px #17264761;
+}
+
+.botones .btn-hdv:hover{
+    background-color: var(--color_azul);
+    color: var(--color_blanco);
+    border: var(--border_blanco);
 }
 
 .botones .icono span{
@@ -68,6 +78,9 @@
     border-radius: 12.5px;
     cursor: pointer;
     padding: 15px;
+    transition: all 1s ease;
+    box-shadow:  5px 1px 12px #111c355a,
+             -2px -1px 12px #17264761;
 }
 
 .cta-talento .descripcion{

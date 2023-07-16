@@ -1,5 +1,6 @@
 .container-foot{
-    background:url(../ASSETS/noisigrablue.png) no-repeat;
+    background:url(../ASSETS/noisigrablue.jpg) no-repeat;
+    backdrop-filter: blur(10px);
     background-size: cover;
     background-position: center;
     color: var(--color_blanco);

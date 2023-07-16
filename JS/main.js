@@ -3,6 +3,7 @@ let nav_mob = document.querySelector('.links');
 let recargar = document.querySelector('.logo');
 let contacto = document.querySelector('.cta');
 let ajustador = document.querySelector('.solapador');
+let link_autor = document.querySelector('.autor');
 
 let link_sobre_mi = document.querySelector('.link.sobre-mi');
 
@@ -37,6 +38,10 @@ contacto.onclick = () =>{
 };
 
 link_sobre_mi.onclick =()=>{
-    console.log('lola');
     window.location.href = '#sobre-mi'
+}
+
+link_autor.onclick = () =>{
+    window.open('https://github.com/Kevinsansuor', '_blank');
+    window.scrollTo(0, 0); 
 }

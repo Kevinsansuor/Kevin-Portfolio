@@ -1,5 +1,7 @@
 .container-foot{
-    background-color: var(--color_azul);
+    background:url(../ASSETS/noisigrablue.png) no-repeat;
+    background-size: cover;
+    background-position: center;
     color: var(--color_blanco);
     width: 100%;
     display: flex;
@@ -22,6 +24,57 @@
     margin: 25px 0;
 }
 
+.container-foot .informacion {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 25px 25%;
+}
+
+.container-foot .informacion .links-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+    font-size: var(--letra_normal);
+}
+
+.informacion .links-info a{
+    border: none;
+    padding: 0;
+}
+
+.links-info .tittle{
+    padding-bottom: 25px;
+    text-decoration: underline solid .5px;
+}
+
+.links-info .link-izq{
+    display: flex;
+    flex-direction: column;
+}
+
+.links-info .link-izq .links{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links-info .link-der{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.links-info .link-der .links{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 @media screen and (max-width:1200px) {
     .container-foot .contenido-foot{
         width: 100%;
@@ -40,5 +93,14 @@
     .container-foot .contenido-foot{
         width: 100%;
         margin: 0 2.5%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .container-foot .informacion {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 25px 15%;
     }
 }

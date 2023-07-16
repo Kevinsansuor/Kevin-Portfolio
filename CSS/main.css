@@ -26,7 +26,6 @@
     --border_amarillo: 2.5px solid var(--color_amarillo);
 }
 
-/*  */
 /* Barrita de Scroll */
 ::-webkit-scrollbar {
     width: 10px;
@@ -148,6 +147,8 @@ body{
     flex-wrap: wrap;
 }
 
+/* Headers de cada sección */
+
 .container .contenido .header-titulo{
     min-height: 300px;
     display: flex;
@@ -205,7 +206,7 @@ body{
     padding: 10px;
 }
 
-
+/* Social Media css */
 
 
 

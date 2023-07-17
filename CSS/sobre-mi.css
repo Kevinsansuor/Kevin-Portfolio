@@ -78,14 +78,14 @@
     .sobre-micontenido .capital-letter{
         width: 100%;
         height: auto;
-        font-size: var(--letra_banner);
+        font-size: 250px;
     }
 
     .sobre-micontenido .texto-contenido{
         display: flex;
         flex-direction: column;
         width: 70%;
-        line-height: 100%;
+        line-height: 120%;
         text-align: justify;
         row-gap: 25px;
     }

@@ -98,3 +98,9 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width:400px) {
+    .sobre-micontenido .texto-contenido{
+        width: 80%;
+        }
+}

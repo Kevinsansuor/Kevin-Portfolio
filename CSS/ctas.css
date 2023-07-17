@@ -279,6 +279,7 @@
         border: initial;
         padding: 0px 0;
         row-gap: 10px;
+        justify-content: space-between;
     }
 
 }

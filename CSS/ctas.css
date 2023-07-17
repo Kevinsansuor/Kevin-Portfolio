@@ -194,7 +194,7 @@
     .redes-der{
         width: 100%;
         padding: 25px 0px;
-        background-color: var(--color_amarillo);
+        background-color: var(--color_hueso);
         border-radius: 12.5px;
         border: var(--border);
     }
@@ -273,11 +273,12 @@
 }
 
 @media screen and (max-width:450px) {
-    .redes-der .redes-link{
-        width: 24px; height: 24px;
+    .redes-der{
+        flex-wrap: wrap;
+        background-color: transparent;
+        border: initial;
+        padding: 0px 0;
+        row-gap: 10px;
     }
 
-    .redes-der{
-        font-size: var(--letra_normal);
-    }
 }

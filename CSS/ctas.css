@@ -93,6 +93,117 @@
     text-align: center;
 }
 
+/* Cta links redes sociales */
+
+.container-redes{
+    background-color: var(--color_blanco);
+    display: flex;
+    border: var(--border);
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    box-shadow:  41px 41px 82px #c3c3c3,
+             -41px -41px 82px #ffffff;
+}
+
+.container-redes .redes-izq{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 45%;
+    gap: 5px;
+}
+
+.redes-izq .redes-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    overflow: hidden;
+    padding: 25px;
+}
+
+.redes-img img{
+    object-fit: cover;
+    border: var(--border);
+    border-radius: 100px;
+}
+
+.redes-izq .redes-content{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    justify-content:flex-start;
+}
+
+.redes-der{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 42px;
+    justify-content: space-around;
+    width: 55%;
+}
+
+.redes-der .redes-link{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    border: var(--border);
+    width: 64px; height: 64px;
+    padding: 5px;
+    border-radius: 12.5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:950px) {
+
+    .container-redes{
+        flex-direction: column;
+    }
+
+    .container-redes .redes-izq{
+        width: 100%;
+        gap: 0px;
+    }
+
+    .redes-izq .redes-img{
+        width: auto;
+        justify-content: flex-start;
+        padding: 0px 25px 25px 0px;
+    }
+
+    .redes-img img{
+        border-radius: 25px;
+    }
+
+    .redes-izq .redes-content{
+        width: 75%;
+    }
+
+    .redes-content .content-icon{
+        display: none;
+    }
+
+    .redes-der{
+        width: 100%;
+        padding: 25px 0px;
+        background-color: var(--color_amarillo);
+        border-radius: 12.5px;
+        border: var(--border);
+    }
+
+    .redes-link{
+        background-color: var(--color_blanco);
+    }
+}
+
 @media screen and (max-width:900px) {
     .cta-talento .botones {
         padding: 25px 0px;
@@ -150,5 +261,23 @@
         width: 90%;
         height: 80px;
         margin: auto;
+    }
+
+    .redes-der .redes-link{
+        width: 44px; height: 44px;
+    }
+
+    .redes-der{
+        font-size: var(--letra_32);
+    }
+}
+
+@media screen and (max-width:450px) {
+    .redes-der .redes-link{
+        width: 24px; height: 24px;
+    }
+
+    .redes-der{
+        font-size: var(--letra_normal);
     }
 }

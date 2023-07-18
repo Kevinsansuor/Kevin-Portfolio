@@ -86,7 +86,7 @@
         flex-direction: column;
         width: 70%;
         line-height: 120%;
-        text-align: justify;
+        text-align: start;
         row-gap: 25px;
     }
 

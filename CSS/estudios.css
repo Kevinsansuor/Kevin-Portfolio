@@ -1,0 +1,98 @@
+.container .contenido .card-estudios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-estudios .estudios-tarjeta{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto; margin-right: auto;
+    width: 35%;
+    background-color: var(--color_azul);
+    color: var(--color_blanco);
+    padding: 25px;
+    max-height: 650px;
+    height: auto;
+    border-radius: 25px;
+    border: var(--border_blanco);
+    justify-content: space-around;
+    box-shadow:  41px 41px 82px #c3c3c3;
+    border-width: 6.5px;
+}
+
+.estudios-tarjeta .tarjeta-ventana-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; margin-right: auto;
+    border-radius: 12.5px;
+    width: 100%;
+    background-color: var(--color_blanco);
+    height: 260px;
+}
+
+.estudios-tarjeta .tarjeta-contenido{
+    height: calc(650px - (260px + 25px));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto; margin-right: auto;
+    gap: 25px;
+}
+
+.tarjeta-contenido .contenido-titulo{
+    height: auto;
+    font-size: var(--letra_32);
+    text-align: center;
+    width: 100%;
+    margin-left: auto; margin-right: auto;
+    border-bottom: var(--border_blanco);
+    border-width:6.5px;
+    padding-bottom: 10px;
+}
+
+.contenido-titulo h2{
+    width: 100%;
+    margin-left: auto; margin-right: auto;
+}
+
+.contenido-subtitulo{
+    height: auto;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto; margin-right: auto;
+}
+
+.contenido-descripcion{
+    margin-top: 25px;
+
+}
+
+@media screen and (max-width:850px) {
+    .card-estudios .estudios-tarjeta{
+        padding: 15px;
+    }
+
+    .card-estudios .estudios-tarjeta{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .container .contenido .card-estudios {
+        flex-direction: column;
+        row-gap: 50px;
+        column-gap: 50px;
+    }
+
+    .card-estudios .estudios-tarjeta{
+        width: auto;
+        margin-left: auto; margin-right: auto;
+    }
+}

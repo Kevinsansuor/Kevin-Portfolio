@@ -95,113 +95,80 @@
 
 /* Cta links redes sociales */
 
-.container-redes{
-    background-color: var(--color_blanco);
-    display: flex;
+.contenido .redes-card-main{
+    padding: 25px;
+    max-height: 300px;
+    background-color: var(--color_hueso);
     border: var(--border);
     border-radius: 25px;
+    margin-bottom: 25px;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 25px;
+    gap: 25px;
     box-shadow:  41px 41px 82px #c3c3c3,
              -41px -41px 82px #ffffff;
 }
 
-.container-redes .redes-izq{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    width: 45%;
-    gap: 5px;
+.redes-card-main .card-main-img{
+    width: 20%;
+    width: fit-content;
+    height: auto;
 }
 
-.redes-izq .redes-img{
+.card-main-img img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border: var(--border);
+    border-radius: 25px;
+    background-color: var(--color_blanco);
+}
+
+.redes-card-main .card-main-text{
+    width: 78%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
-    width: 50%;
-    overflow: hidden;
+    gap: 25px;
+}
+
+.card-main-text .main-text-header{
+    font-size: var(--letra_32);
+}
+
+.redes-card-links{
     padding: 25px;
-}
-
-.redes-img img{
-    object-fit: cover;
+    background-color: var(--color_blanco);
     border: var(--border);
-    border-radius: 100px;
-}
-
-.redes-izq .redes-content{
-    width: 50%;
+    border-radius: 25px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    vertical-align: middle;
-    justify-content:flex-start;
-}
-
-.redes-der{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    vertical-align: middle;
-    font-size: 42px;
-    justify-content: space-around;
-    width: 55%;
-}
-
-.redes-der .redes-link{
-    display: flex;
-    align-items: center;
-    vertical-align: middle;
     justify-content: center;
-    border: var(--border);
-    width: 64px; height: 64px;
-    padding: 5px;
+    align-items: center;
+    box-shadow:  41px 41px 82px #c3c3c3;
+    gap: 25px;
+}
+
+.card-links-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
     border-radius: 12.5px;
+    font-size: var(--letra_32);
+    width: 62px; height: 62px;
+    border: var(--border);
     cursor: pointer;
+}
+
+.redes-card-links .card-links-link p{
+    display: none;
 }
 
 @media screen and (max-width:950px) {
 
-    .container-redes{
-        flex-direction: column;
-    }
-
-    .container-redes .redes-izq{
-        width: 100%;
-        gap: 0px;
-    }
-
-    .redes-izq .redes-img{
-        width: auto;
-        justify-content: flex-start;
-        padding: 0px 25px 25px 0px;
-    }
-
-    .redes-img img{
-        border-radius: 25px;
-    }
-
-    .redes-izq .redes-content{
-        width: 75%;
-    }
-
-    .redes-content .content-icon{
-        display: none;
-    }
-
-    .redes-der{
-        width: 100%;
-        padding: 25px 0px;
-        background-color: var(--color_hueso);
-        border-radius: 12.5px;
-        border: var(--border);
-    }
-
-    .redes-link{
-        background-color: var(--color_blanco);
-    }
+    
 }
 
 @media screen and (max-width:900px) {
@@ -263,23 +230,61 @@
         margin: auto;
     }
 
-    .redes-der .redes-link{
-        width: 44px; height: 44px;
+    .card-main-img img{
+        width: 150px;
+        height: 150px;
     }
 
-    .redes-der{
-        font-size: var(--letra_32);
+    .redes-card-links{
+        flex-direction: column;
+        align-items: self-start;
+    }
+
+    .card-links-link{
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        border: none;
+        background-color: var(--color_hueso);
+        gap: 25px;
+        border: var(--border_mitad);
+    }
+
+    .card-links-link svg{
+        margin-left: 25px;
+        font-size: var(--letra_normal);
+        font-size: 2rem;
+        color: var(--color_azul);
+    }
+
+    .redes-card-links .card-links-link p{
+        display: block;
+        font-size: var(--letra_normal);
     }
 }
 
 @media screen and (max-width:450px) {
-    .redes-der{
-        flex-wrap: wrap;
-        background-color: transparent;
-        border: initial;
-        padding: 0px 0;
-        row-gap: 10px;
-        justify-content: space-between;
+    .card-main-img{
+        display: none;
     }
 
+    .redes-card-main .card-main-text{
+        width: 100%;
+    }
+
+    .redes-card-links{
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        gap: 25px;
+        vertical-align: middle;
+    }
+
+    .redes-card-links .card-links-link{
+        display: flex;
+        width: 100%;
+        border-radius: 12.5px;
+        background-color: var(--color_hueso);
+        vertical-align: middle;
+    }
 }

@@ -1,0 +1,106 @@
+.container .contenido .proyectos-contenido{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.proyectos-contenido .contenido-tarjeta-der{
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: var(--color_hueso);
+    box-shadow:  41px 41px 82px #c3c3c3,
+             -41px -41px 82px #ffffff1d;
+}
+
+.contenido-tarjeta-der.izq .tarjeta-imagen{
+    order: 2;
+}
+
+.contenido-tarjeta-der.izq .tarjeta-contenido{
+    text-align: start;
+}
+
+.contenido-tarjeta-der.izq .tarjeta-contenido-tag{
+    margin: 0;
+}
+
+.contenido-tarjeta-der .tarjeta-imagen{
+    width: 75%;
+    height: 500px;
+}
+
+.tarjeta-imagen img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.contenido-tarjeta-der .tarjeta-contenido{
+    overflow: hidden;
+    width: 25%;
+    background-color: var(--color_azul);
+    color: var(--color_blanco);
+    padding: 50px;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tarjeta-contenido .tarjeta-contenido-tag{
+    display: flex;
+    border: var(--border_blanco);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-left: auto;
+}
+
+.tarjeta-contenido .tarjeta-contenido-titulo{
+    font-size: var(--letra_32);
+    font-family: var(--fuente_rokkitt);
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: var(--border_blanco);
+    border-width: 5px;
+}
+
+.tarjeta-contenido .tarjeta-contenido-descripcion{
+    font-size: var(--letra_normal);
+    font-family: var(--fuente_prata);
+    line-height: 120%;
+}
+
+.tarjeta-contenido .tarjeta-contenido-btn{
+    padding: 15px;
+    background-color: var(--color_blanco);
+    border-radius: 12.5px;
+    color: var(--color_azul);
+    text-align: center;
+    font-family: var(--fuente_rokkitt);
+    font-weight: 900;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    cursor: pointer;
+    border: 5px solid var(--color_hueso);
+}
+
+.tarjeta-contenido-btn span{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+}

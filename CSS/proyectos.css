@@ -119,7 +119,7 @@
         width: 100%;
         height: 350px;
         object-fit: auto;
-        object-position: left top;
+        object-position: center;
     }
     .contenido-tarjeta-der .tarjeta-contenido{
         width: auto;

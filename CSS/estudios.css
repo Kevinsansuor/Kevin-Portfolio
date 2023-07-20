@@ -74,6 +74,57 @@
 
 }
 
+.container .contenido .tabla{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    border: var(--border);
+    border-radius: 25px;
+}
+
+.tabla .celda{
+    padding: 25px 0;
+    border-bottom: var(--border);
+    width: 100%;
+}
+
+.tabla .celda:last-child{
+    border-bottom: 0px;
+}
+
+.celda .celda-contenido{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.celda .celda-contenido .tiulo{
+    font-family: var(--fuente_prata);
+    font-weight: 900;
+    font-size: var(--letra_32);
+    padding-bottom: 25px;
+}
+
+.celda-contenido .bold{
+    font-weight: 900;
+}
+
+.celda-contenido .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 25px;
+    border: var(--border_mitad);
+    vertical-align: middle;
+    gap: 10px;
+}
+
 @media screen and (max-width:850px) {
     .card-estudios .estudios-tarjeta{
         padding: 15px;
@@ -94,5 +145,16 @@
     .card-estudios .estudios-tarjeta{
         width: auto;
         margin-left: auto; margin-right: auto;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .celda-contenido .btn{
+        margin-right: auto; margin-left: auto;
+        width: 90%;
+    }
+
+    .tabla .celda .celda-contenido{
+        padding: 0;
     }
 }

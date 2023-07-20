@@ -112,13 +112,14 @@
 
     .contenido-tarjeta-der .tarjeta-imagen{
         width: 100%;
-        height: auto;
+        height: 350px;
     }
     
     .tarjeta-imagen img{
         width: 100%;
-        height: auto;
-        object-fit: contain;
+        height: 350px;
+        object-fit: auto;
+        object-position: left top;
     }
     .contenido-tarjeta-der .tarjeta-contenido{
         width: auto;

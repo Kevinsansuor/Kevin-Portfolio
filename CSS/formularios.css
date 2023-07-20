@@ -85,4 +85,11 @@
     .container .contenido .formulario{
         padding: 25px;
     }
+
+    .formulario-input .input-icono{
+        font-size: var(--letra_normal);
+    }
+        .formulario-input .input-input input{
+        font-size: var(--letra_normal);
+    }
 }

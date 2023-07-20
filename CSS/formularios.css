@@ -86,10 +86,10 @@
         padding: 25px;
     }
 
-    .formulario-input .input-icono{
+    .container .contenido .formulario-input .input-icono span{
         font-size: var(--letra_normal);
     }
-        .formulario-input .input-input input{
-        font-size: var(--letra_normal);
+    .container .contenido .formulario-input .input-input input{
+        font-size: 20px;
     }
 }

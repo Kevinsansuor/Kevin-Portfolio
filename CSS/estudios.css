@@ -12,8 +12,8 @@
     flex-direction: column;
     margin-left: auto; margin-right: auto;
     width: 35%;
-    background-color: var(--color_azul);
-    color: var(--color_blanco);
+    background-color: var(--color_hueso);
+    color: var(--color_azul);
     padding: 25px;
     max-height: 650px;
     height: auto;
@@ -74,19 +74,24 @@
 
 }
 
+/* Sección certificados */
+
 .container .contenido .tabla{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 25px;
-    border: var(--border);
+    border: var(--border_blanco);
+    border-width: 5px;
     border-radius: 25px;
+    box-shadow:  41px 41px 82px #c3c3c3,
+             -41px -41px 82px #ffffff;
 }
 
 .tabla .celda{
     padding: 25px 0;
-    border-bottom: var(--border);
+    border-bottom: var(--border_blanco);
     width: 100%;
 }
 

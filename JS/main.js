@@ -75,7 +75,7 @@ btn_contacto.forEach(item => item.onclick =()=>{
 btn_hdv.forEach(item => item.onclick= () =>{ 
     console.log('Descargando hoja de vida');
         const downloadInstance = document.createElement('a');
-        downloadInstance.href = '../ASSETS/logo-fitec-img.png';
+        downloadInstance.href = '../ASSETS/hoja-de-vida.pdf';
         downloadInstance.target = '_blank';
         downloadInstance.download = 'Hoja de vida online de Kevin Santiago Suarez Ortega';
 

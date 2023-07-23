@@ -141,4 +141,8 @@ box-shadow:  20px 20px 120px #111c3564,
         gap: 50px;
         padding: 25px 15%;
     }
+
+    .container-foot{
+        height: auto;
+    }
 }

@@ -27,7 +27,6 @@
     padding: 25px;
     border-radius: 12.5px;
     border: var(--border_mitad);
-    backdrop-filter: blur(5px);
 }
 
 .formulario .formulario-input.mensaje{

@@ -26,6 +26,11 @@
     --border_amarillo: 2.5px solid var(--color_amarillo);
 }
 
+.aproximador{
+    height: 50px;
+    border-radius: 25px;
+}
+
 /* Barrita de Scroll */
 ::-webkit-scrollbar {
     width: 10px;

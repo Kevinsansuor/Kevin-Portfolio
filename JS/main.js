@@ -72,20 +72,29 @@ btn_contacto.forEach(item => item.onclick =()=>{
     //https://jsremote.jobs/tutorials/query-selector/
 });
 
+// btn_hdv.forEach(item => item.onclick= () =>{ //Dinosaurio
+//     console.log('Descargando hoja de vida');
+//         const downloadInstance = document.createElement('a');
+//         downloadInstance.href = '../ASSETS/hoja-de-vida.pdf';
+//         downloadInstance.target = '_blank';
+//         downloadInstance.download = 'Hoja de vida online de Kevin Santiago Suarez Ortega';
+
+//         document.body.appendChild(downloadInstance);
+//         downloadInstance.click();
+//         document.body.removeChild(downloadInstance);
+
+//         //https://www.youtube.com/watch?v=2gvvrYEHS5g
+//         //https://jsremote.jobs/tutorials/query-selector/
+// });
+
+
 btn_hdv.forEach(item => item.onclick= () =>{ 
-    console.log('Descargando hoja de vida');
-        const downloadInstance = document.createElement('a');
-        downloadInstance.href = '../ASSETS/hoja-de-vida.pdf';
-        downloadInstance.target = '_blank';
-        downloadInstance.download = 'Hoja de vida online de Kevin Santiago Suarez Ortega';
+console.log('Descargando hoja de vida');
+    window.open('ASSETS/hoja-de-vida.pdf');
 
-        document.body.appendChild(downloadInstance);
-        downloadInstance.click();
-        document.body.removeChild(downloadInstance);
-
-        //https://www.youtube.com/watch?v=2gvvrYEHS5g
-        //https://jsremote.jobs/tutorials/query-selector/
-});
+//https://www.youtube.com/watch?v=2gvvrYEHS5g
+//https://jsremote.jobs/tutorials/query-selector/ --> Hay un problema, que al descargarla desde un servidor genera un archivo .html :7
+ });
 
 let link_instagram = document.querySelectorAll('#link-instagram');
 

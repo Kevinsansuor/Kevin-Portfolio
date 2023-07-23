@@ -406,4 +406,10 @@ body{
         height: auto;
         min-height: auto;
     }
+
+    .aproximador{
+        height: 80px;
+        border-radius: 25px;
+    }
+    
 }

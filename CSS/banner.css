@@ -17,6 +17,7 @@
 }
 
 .contenido .chip{
+    margin-top: 5%;
     position: relative;
     width: 100%;
     border: var(--border);

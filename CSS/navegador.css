@@ -96,7 +96,6 @@ nav .navegacion{
     cursor: pointer;
     padding: 10px 5px;
     border-radius: 5px;
-    margin: auto;
 }
 
 .nav-util .logo .logo-img{
@@ -110,6 +109,12 @@ nav .navegacion{
 
 .nav-util .logo .logo-img:hover{
     transform: rotate(-45deg);
+    
+}
+
+.nav-util .logo .logo-img:active{
+    transition: .5s;
+    transform: rotate(25deg);
 }
 
 .navegacion .main{

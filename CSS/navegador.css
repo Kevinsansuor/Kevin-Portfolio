@@ -36,6 +36,52 @@ nav .navegacion{
     gap: 10px;
 }
 
+.nav-util .links .link{
+    transition: all 1.5s ease-in-out;
+}
+
+.nav-util .links .link:active{
+    animation: mi-links-nav .1s linear ;
+}
+
+@keyframes mi-links-nav {
+    0%{
+            transform: scale(1);
+            box-shadow: inset -5px -5px 10px #c4c4c4,
+            inset 5px 5px 10px #ffffff;
+    }
+
+    15%{
+        transform: scale(0.99);
+        box-shadow: inset -5px -5px 10px #c4c4c4,
+            inset 5px 5px 10px #ffffff;
+}
+
+30%{
+    transform: scale(0.89);
+    box-shadow: inset -5px -5px 10px #c4c4c4,
+            inset 5px 5px 10px #ffffff;
+}
+
+    50%{
+            transform: scale(0.79);
+            box-shadow: inset -49px -49px 98px #c4c4c4,
+            inset 49px 49px 98px #ffffff;
+    }
+
+    65%{
+        transform: scale(0.89);
+}
+
+80%{
+    transform: scale(0.99);
+}
+
+    100%{
+            transform: scale(1);
+    }
+}
+
 .links a{
     border: var(--border_mitad);
     padding: 10px 15px;
@@ -71,6 +117,48 @@ nav .navegacion{
     border-radius: 25px;
     cursor: pointer;
     border: var(--border_mitad);
+}
+
+.main .cta:active{
+    animation: mi-links-cta .1s linear ;
+}
+
+.main .nav-mob:active{
+    animation: mi-links-nav .1s linear ;
+}
+
+@keyframes mi-links-cta {
+    0%{
+            transform: scale(1);
+    }
+
+    15%{
+        transform: scale(0.99);
+}
+
+30%{
+    transform: scale(0.89);
+}
+
+    50%{
+            transform: scale(0.79);
+            border-radius: 0px;
+background: #14213e;
+box-shadow: inset -49px -49px 98px #111c35,
+            inset 49px 49px 98px #172647;
+    }
+
+    65%{
+        transform: scale(0.89);
+}
+
+80%{
+    transform: scale(0.99);
+}
+
+    100%{
+            transform: scale(1);
+    }
 }
 
 .main .nav-mob{

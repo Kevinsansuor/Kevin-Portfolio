@@ -61,6 +61,9 @@
     border-radius: 25px;
     font-size: 15px;
     margin-left: auto;
+    align-items: center;
+    vertical-align: middle;
+    gap: 5px;
 }
 
 .tarjeta-contenido .tarjeta-contenido-titulo{

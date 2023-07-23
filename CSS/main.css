@@ -100,6 +100,21 @@ body{
     top: 0;
 }
 
+.container .contenido .ciudad{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-radius: 25px;
+    padding: 25px 0 0 0;
+}
+
+.ciudad img{
+    width: 100%;
+    object-fit: contain;
+}
+
 .accordion-title span {
     bottom: 0px;
     box-sizing: border-box;

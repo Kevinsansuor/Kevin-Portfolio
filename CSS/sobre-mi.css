@@ -10,6 +10,7 @@
     flex-direction: column;
     margin: auto;
     gap: 25px;
+    border-radius: 25px;
 }
 
 .sobre-micontenido .capital-letter{
@@ -31,14 +32,21 @@
     height: auto;
     gap: 2%;
     line-height: 160%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: start;
 }
 
 .texto-contenido .texto-1{
-    width: 35%;
+    width: 45%;
+}
+
+.texto-1 p{
+    word-wrap: balance;
 }
 
 .texto-contenido .texto-2{
-    width: 35%;
+    width: 45%;
 }
 
 @media screen and (max-width:999px) {
@@ -61,7 +69,7 @@
 @media screen and (max-width:750px) {
     .sobre-micontenido .texto-contenido{
         width: 80%;
-        gap: 2%;
+        gap: 5%;
         line-height: 120%;
     }
 
@@ -71,6 +79,23 @@
     
     .texto-contenido .texto-2{
         width: 45%;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    .sobre-micontenido .capital-letter{
+        width: 100%;
+        height: auto;
+        font-size: 350px;
+    }
+
+    .texto-contenido .texto-1{
+        width: auto;
+    }
+    
+    .texto-contenido .texto-2{
+        width: auto;
     }
 }
 
@@ -84,7 +109,7 @@
     .sobre-micontenido .texto-contenido{
         display: flex;
         flex-direction: column;
-        width: 70%;
+        width: 75%;
         line-height: 120%;
         text-align: start;
         row-gap: 25px;

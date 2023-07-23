@@ -44,7 +44,7 @@
     padding: 15px;
     transition: all .5s ease;
     box-shadow:  5px 1px 12px #111c355a,
-             -2px -1px 12px #17264761;
+             -2px -1px 12px #1726471c;
 }
 
 .botones .btn-contacto:hover{
@@ -79,7 +79,7 @@
     cursor: pointer;
     padding: 15px;
     transition: all 1s ease;
-    box-shadow:  5px 1px 12px #111c355a,
+    box-shadow:  5px 1px 12px #111c351c,
              -2px -1px 12px #17264761;
 }
 
@@ -99,7 +99,11 @@
     padding: 25px;
     max-height: 300px;
     background-color: var(--color_hueso);
-    border: var(--border);
+    background: url(../ASSETS/Bucaramanga.png) no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    border: var(--border_blanco);
+    border-width: 5px;
     border-radius: 25px;
     margin-bottom: 25px;
     display: flex;
@@ -119,13 +123,13 @@
     width: 200px;
     height: 200px;
     object-fit: contain;
-    border: var(--border);
+    
     border-radius: 25px;
     background-color: var(--color_blanco);
 }
 
 .redes-card-main .card-main-text{
-    width: 78%;
+    width: 48%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -139,14 +143,16 @@
 
 .redes-card-links{
     padding: 25px;
-    background-color: var(--color_blanco);
-    border: var(--border);
+    background-color: #ffffff;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     border-radius: 25px;
+    border: var(--border_blanco);
+    border-width: 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    box-shadow:  41px 41px 82px #c3c3c3;
+
     gap: 25px;
 }
 
@@ -158,12 +164,23 @@
     border-radius: 12.5px;
     font-size: var(--letra_32);
     width: 62px; height: 62px;
-    border: var(--border);
     cursor: pointer;
+    transition: all .5s ease-in-out;
 }
 
 .redes-card-links .card-links-link p{
     display: none;
+}
+
+.card-links-link svg{
+    color: var(--color_gris);
+    opacity: .8;
+    transition: all .5s ease-in-out;
+}
+
+.card-links-link:hover{
+    opacity: 1;
+    transform: scale(1.25);
 }
 
 @media screen and (max-width:950px) {
@@ -254,12 +271,18 @@
         margin-left: 25px;
         font-size: var(--letra_normal);
         font-size: 2rem;
-        color: var(--color_azul);
+        width: 45px;
     }
 
     .redes-card-links .card-links-link p{
         display: block;
         font-size: var(--letra_normal);
+    }
+    
+    .card-links-link:hover, .card-links-link:active{
+        opacity: 1;
+        transform:none;
+        background-color: var(--color_blanco);
     }
 }
 
@@ -283,7 +306,7 @@
     .redes-card-links .card-links-link{
         display: flex;
         width: 100%;
-        border-radius: 12.5px;
+        border-radius: 18px;
         background-color: var(--color_blanco);
         vertical-align: middle;
     }

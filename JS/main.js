@@ -86,3 +86,33 @@ btn_hdv.forEach(item => item.onclick= () =>{
         //https://www.youtube.com/watch?v=2gvvrYEHS5g
         //https://jsremote.jobs/tutorials/query-selector/
 });
+
+let link_instagram = document.querySelectorAll('#link-instagram');
+
+link_instagram.forEach(e => e.onclick=()=>{
+    window.open('https://www.instagram.com/ing_kevinsan/', 'nuevaVentana');
+})
+
+let link_linkedin = document.querySelectorAll('#link-linkedin');
+
+link_linkedin.forEach(e => e.onclick=()=>{
+    window.open('https://www.linkedin.com/in/kevin-suarez-o/');
+});
+
+let link_github = document.querySelectorAll('#link-github');
+
+link_github.forEach(e => e.onclick=()=>{
+    window.open('https://github.com/Kevinsansuor');
+})
+
+let link_twitter = document.querySelectorAll('#link-twitter');
+
+link_twitter.forEach(e => e.onclick=()=>{
+    window.open('https://twitter.com/KevinSanSuOr');
+})
+
+let link_behance = document.querySelectorAll('#link-behance');
+
+link_behance.forEach(e => e.onclick=()=>{
+    window.open('https://www.behance.net/ingkevsan');
+})

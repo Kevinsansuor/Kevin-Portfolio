@@ -3,12 +3,13 @@
     display: flex;
     flex-direction: column;
     background-color: var(--color_blanco);
-    background: url(../ASSETS/Bucaramanga.png) no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    /* background: url(../ASSETS/Bucaramanga.png) no-repeat;
+    background-size: cover; */
     box-shadow:  41px 41px 82px #c3c3c3,
              -41px -41px 82px #ffffff1d;
     border-radius: 25px;
-    padding: 100px;
+    padding: 150px 25%  ;
 }
 
 .formulario form{
@@ -77,12 +78,18 @@
 }
 
 .formulario form .btn{
-    padding: 25px 0;
+    padding: 30px 0;
     font-family: var(--fuente_rokkitt);
     background-color: var(--color_azul);
     color: var(--color_blanco);
     border-radius: 12.5px;
     font-size: 20px;
+}
+
+@media screen and (max-width:750px) {
+    .container .contenido .formulario{
+        padding: 100px 12.5%  ;
+    }
 }
 
 @media screen and (max-width:550px) {

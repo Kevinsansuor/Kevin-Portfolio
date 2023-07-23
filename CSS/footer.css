@@ -78,7 +78,7 @@ box-shadow:  20px 20px 120px #111c3564,
 .links-info .link-izq .links{
     display: flex;
     flex-direction: column;
-    
+    gap: 10px;
 }
 
 .links-info .link-der{
@@ -90,6 +90,7 @@ box-shadow:  20px 20px 120px #111c3564,
 .links-info .link-der .links{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .links-info .links .link{

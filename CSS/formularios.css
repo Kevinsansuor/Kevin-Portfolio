@@ -62,6 +62,12 @@
     border: 0px;
     font-size: 20px;
     background-color: transparent;
+    
+}
+
+::placeholder{
+    opacity: .8;
+    font-size: var(--letra_normal);
 }
 
 .formulario-input .input-input textarea{

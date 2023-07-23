@@ -194,6 +194,11 @@ border-bottom-right-radius: 25px;
 
 
 @media screen and (max-width:500px) {
+
+    .contenido .chip{
+        margin-top: 0%;
+    }
+
     .principal-banner .contenido .izq-chip .nombre{
         font-size: 70px;
         padding: 10px;

@@ -96,12 +96,20 @@ nav .navegacion{
     cursor: pointer;
     padding: 10px 5px;
     border-radius: 5px;
+    margin: auto;
 }
 
 .nav-util .logo .logo-img{
     background-color: var(--color_azul);
     padding: 5px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: all .5s ease-in-out;
+}
+
+.nav-util .logo .logo-img:hover{
+    transform: rotate(-45deg);
 }
 
 .navegacion .main{
@@ -130,34 +138,41 @@ nav .navegacion{
 @keyframes mi-links-cta {
     0%{
             transform: scale(1);
+            border-radius: 25px;
     }
 
     15%{
-        transform: scale(0.99);
+        transform: scale(0.89);
+        border-radius: 25px;
 }
 
 30%{
-    transform: scale(0.89);
+    transform: scale(0.79);
+    border-radius: 25px;
 }
 
     50%{
-            transform: scale(0.79);
+            transform: scale(0.59);
             border-radius: 0px;
 background: #14213e;
 box-shadow: inset -49px -49px 98px #111c35,
             inset 49px 49px 98px #172647;
+            border-radius: 25px;
     }
 
     65%{
-        transform: scale(0.89);
+        transform: scale(0.79);
+        border-radius: 25px;
 }
 
 80%{
     transform: scale(0.99);
+    border-radius: 25px;
 }
 
     100%{
             transform: scale(1);
+            border-radius: 25px;
     }
 }
 

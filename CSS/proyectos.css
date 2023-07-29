@@ -172,4 +172,23 @@
     .container .contenido .proyectos .proyecto-card .card-img-top {
         height: 500px;
     }
+
+    .card-label-top .tags .tag{
+        font-size: var(--letra_18);
+    }
+}
+
+@media screen and (max-width:450px) {
+    .container .contenido .proyectos .proyecto-card {
+        padding: 0px;
+        border: inherit;
+    }
+
+    .container .contenido .proyectos .proyecto-card .card-img-top {
+        display: flex;
+        flex-direction: column;
+        border: var(--border_blanco);
+        border-width: 10px;
+        height: 350px;
+    }
 }

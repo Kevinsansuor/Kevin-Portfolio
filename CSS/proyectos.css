@@ -130,11 +130,20 @@
     .card-img-top img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
     }
 }
 
 @media screen and (max-width:550px) {
+
+    .card-img-top img {
+        border-radius: 25px;
+    }
+
+    .container .contenido .proyectos .proyecto-card .card-img-top {
+        border-width: 15px;
+        height: 400px;
+    }
+
     .container .contenido .proyectos .proyecto-card {
         padding: 25px;
     }
@@ -185,10 +194,7 @@
     }
 
     .container .contenido .proyectos .proyecto-card .card-img-top {
-        display: flex;
-        flex-direction: column;
-        border: var(--border_blanco);
-        border-width: 10px;
+        border-width: 15px;
         height: 350px;
     }
 }

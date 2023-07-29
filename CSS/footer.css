@@ -145,3 +145,9 @@ box-shadow:  20px 20px 120px #111c3564,
         height: auto;
     }
 }
+
+@media screen and (max-width:500px) {
+    .container-foot .informacion {
+        padding: 25px 10%;
+            }
+}

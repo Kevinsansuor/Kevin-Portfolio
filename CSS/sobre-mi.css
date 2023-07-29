@@ -23,18 +23,20 @@
 }
 
 .sobre-micontenido .texto-contenido{
+    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: self-start;
-    justify-content: center;
-    width: 52%;
+    justify-content: space-between;
+    width: 100%;
     margin-left: auto; margin-right: auto;
     height: auto;
     gap: 2%;
-    line-height: 160%;
+    line-height: 190%;
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: start;
+    padding: 25px;
 }
 
 .texto-contenido .texto-1{

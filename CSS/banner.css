@@ -98,7 +98,7 @@
         font-size: var(--letra_header);
     }
 
-    .contenido{
+    #hero-banner .contenido{
         background: url(../ASSETS/svg/vector_web_developer.svg)no-repeat;
         background-size: 1500px;
         background-position: 45% 100%;
@@ -112,23 +112,25 @@
         gap: 15px;
         background-color: #14213e36;
         backdrop-filter: blur(1px);
+        border-radius: 25px;
     }
 
     #hero-banner .contenido .card-img {
         display: none;
-        background-color: red;
     }
     #hero-banner .contenido .card .card-btn{
         display: block;
         color: var(--color_azul);
         background-color: var(--color_blanco);
-        width: 100%;
+        width: 98%;
+        margin-left: auto; margin-right: auto;
         height: 12%;
         border-radius: 25px;
         display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
+        border: var(--border);
     }
 }
 
@@ -141,5 +143,11 @@
 
     .card .tag-degrees{
         font-size: var(--letra_normal);
+    }
+}
+
+@media screen and (max-width:450px) {
+    #hero-banner .contenido .card .card-btn{
+        width: 96%;
     }
 }

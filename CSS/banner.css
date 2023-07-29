@@ -148,9 +148,6 @@
 
 @media screen and (max-width:450px) {
     #hero-banner .contenido .card .card-btn{
-        display: block;
-        color: var(--color_azul);
-        background-color: var(--color_blanco);
-        width: 98%;
+        width: 96%;
     }
 }

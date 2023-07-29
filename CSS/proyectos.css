@@ -1,21 +1,53 @@
 .container .contenido .proyectos{
-    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .container .contenido .proyectos .proyecto-card{
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
     border: var(--border_blanco);
-    height: auto;
     padding: 50px;
     border-radius: 25px;
-    gap: 50px;
+}
+
+.container .contenido .proyectos .proyecto-card .card-img-top{
+    display: flex;
+    flex-direction: column;
+    border: var(--border_blanco);
+    border-width: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: var(--color_azul);
+    height: 700px;
+}
+
+.container .contenido .proyectos .proyecto-card .card-img-top.orslo{
+    background-color: #EEE4DA;
+}
+
+
+.container .contenido .proyectos .proyecto-card .card-img-top.alura-geek{
+    background-color: #2A7AE4;
+}
+
+.container .contenido .proyectos .proyecto-card .card-img-top.lista-tareas{
+    background-color: #C57B57;
+}
+
+
+.card-img-top img{
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+    height: 85%;
 }
 
 .proyectos .proyecto-card .separador{
@@ -24,10 +56,11 @@
 }
 
 .proyecto-card .card-label-top{
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
     background-color: var(--color_blanco);
     display: flex;
     flex-direction: column;
-    border-radius: 25px;
     padding: 25px;
 }
 
@@ -40,6 +73,7 @@
     align-items: center;
     justify-content: space-between;
     vertical-align: middle;
+    text-transform: capitalize;
 }
 
 .card-label-top #proyecto-link{
@@ -58,9 +92,11 @@
     margin-bottom: 25px;
 }
 
+
 .card-label-top .texto{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     overflow-wrap: break-word;
     text-align: start;
     margin-bottom: 25px;
@@ -88,4 +124,52 @@
     gap: 5px;
     border-radius: 5px;
     text-transform: capitalize;
+}
+
+@media screen and (max-width:650px) {
+    .card-img-top img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .container .contenido .proyectos .proyecto-card {
+        padding: 25px;
+    }
+    
+    .card-label-top .titulo {
+        font-family: var(--fuente_prata);
+        font-size: var(--letra_32);
+        align-items: flex-end;
+    }
+
+    .card-label-top #proyecto-link {
+        font-size: var(--letra_32);
+        padding: 15px;
+        border: var(--border_mitad);
+        border-radius: 12.5px;
+        cursor: pointer;
+    }
+
+    .card-label-top .texto{
+        margin-bottom: 0px;
+    }
+
+    .card-label-top .tags {
+        padding: 15px 5px 5px 0;
+        margin-right: auto;
+        gap: 15px;
+        column-gap: 15px;
+        row-gap: 10px;
+    }
+
+    .proyectos .proyecto-card .separador {
+        border-bottom: var(--border_mitad);
+    }
+
+    .container .contenido .proyectos .proyecto-card .card-img-top {
+        height: 500px;
+    }
 }

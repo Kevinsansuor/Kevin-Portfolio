@@ -100,8 +100,8 @@
 
     #hero-banner .contenido{
         background: url(../ASSETS/svg/vector_web_developer.svg)no-repeat;
-        background-size: 1500px;
-        background-position: 45% 100%;
+        background-size: cover;
+        background-position: 45% 90%;
         border-radius: 25px;
     }
 
@@ -148,6 +148,9 @@
 
 @media screen and (max-width:450px) {
     #hero-banner .contenido .card .card-btn{
-        width: 96%;
+        display: block;
+        color: var(--color_azul);
+        background-color: var(--color_blanco);
+        width: 98%;
     }
 }

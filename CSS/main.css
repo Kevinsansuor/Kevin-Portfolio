@@ -23,6 +23,7 @@
     --border: 5px solid var(--color_azul);
     --border_mitad: 2.5px solid var(--color_azul);
     --border_blanco: 2.5px solid var(--color_blanco);
+    --border_hueso: 2.5px solid var(--color_hueso);
     --border_amarillo: 2.5px solid var(--color_amarillo);
 }
 

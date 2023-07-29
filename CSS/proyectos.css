@@ -84,7 +84,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 5px;
-    border: var(--border_mitad);
+    border: var(--border_hueso);
     gap: 5px;
     border-radius: 5px;
     text-transform: capitalize;

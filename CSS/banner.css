@@ -111,7 +111,6 @@
         justify-content: flex-end;
         gap: 15px;
         background-color: #14213e36;
-        backdrop-filter: blur(1px);
         border-radius: 25px;
     }
 

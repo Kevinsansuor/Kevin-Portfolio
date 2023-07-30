@@ -1,0 +1,92 @@
+.container .contenido.blog{
+    gap: 25px;
+    position: relative;
+    width: 100%;
+}
+
+.container .contenido.blog .background-tittle{
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+    box-shadow:  11px 11px 22px #c3c3c3,
+             -41px -41px 22px #ffffff;
+}
+
+.background-tittle .noise{
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(100deg, #14213e96 0%, #14213ee3 76%), url(../ASSETS/svg/noise.svg);
+    position: absolute;
+    z-index: 10;
+}
+
+.background-tittle .titulo{
+    position: absolute;
+    z-index: 11;
+    font-size: var(--letra_header);
+    color: var(--color_blanco);
+    text-align: center;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.contenido .contenido-blog{
+    height: auto;
+    border-radius: 25px;
+    background-color: var(--color_amarillo);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    box-shadow:  41px 41px 82px #c3c3c3,
+             -41px -41px 82px #ffffff;
+             position: relative;
+             gap: 25px;
+}
+
+.contenido-blog .blog-contenido-header{
+    width: 100%;
+    height: 300px;
+    background-color: var(--color_blanco);
+    border-radius: 25px;
+}
+
+.contenido-blog .blog-contenido-cuerpo{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: url(../ASSETS/abstract-minimal-plant-vase-copy-space.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    position: relative;
+}
+
+.blog-contenido-cuerpo .cuerpo-descripcion{
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-left: auto;
+    width: 25%;
+    background-color: var(--color_blanco);
+    padding: 25px;
+    -webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+}
+
+@media screen and (max-width:550px) {
+
+    .container .contenido.blog .background-tittle{
+        height: 150px;
+    }
+
+
+    .background-tittle .titulo{
+        font-size: var(--letra_32);
+    }
+}

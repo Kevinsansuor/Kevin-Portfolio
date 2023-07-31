@@ -131,6 +131,11 @@
         cursor: pointer;
         border: var(--border);
     }
+
+    .card .acomodador {
+        padding-left: 10px;
+        padding-bottom: 25px;
+    }
 }
 
 
@@ -145,10 +150,6 @@
         font-size: var(--letra_normal);
     }
 
-    .card .acomodador {
-        padding-left: 10px;
-        padding-bottom: 25px;
-    }
 }
 
 @media screen and (max-width:450px) {

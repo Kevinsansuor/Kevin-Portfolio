@@ -152,8 +152,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     gap: 25px;
+    transition: 1.5s all linear;
 }
 
 .card-links-link{
@@ -285,6 +285,16 @@
         opacity: 1;
         transform:none;
         background-color: var(--color_blanco);
+    }
+
+    .card-links-link svg {
+        transition: none;
+    }
+
+    .redes-card-links .card-links-link:hover{
+        background-color: var(--color_azul);
+        color: var(--color_blanco);
+        fill: var(--color_blanco);
     }
 }
 

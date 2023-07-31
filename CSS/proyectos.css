@@ -86,6 +86,12 @@
     border: var(--border_mitad);
     border-radius: 12.5px;
     cursor: pointer;
+    transition: all .1s ease-in;
+}
+
+span#proyecto-link:active {
+    background: var(--color_azul);
+    color: var(--color_blanco);
 }
 
 .card-label-top .separador{

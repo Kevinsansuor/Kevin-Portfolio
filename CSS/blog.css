@@ -62,7 +62,7 @@
     justify-content: center;
     align-items: center;
     font-size: var(--letra_header);
-    padding-bottom: 25px;
+    padding-bottom: 25px; padding-top: 25px;
     font-weight: 900;
 }
 
@@ -94,6 +94,7 @@
     font-size: var(--letra_normal);
     width: 80%;
     margin-left: auto; margin-right: auto;
+    padding-bottom: 25px;
 }
 
 .contenido-blog .blog-contenido-cuerpo{
@@ -128,7 +129,8 @@ transition:  .5s ease-in;
 cursor: pointer;
 }
 
-.blog-contenido-cuerpo .cuerpo-descripcion:hover{
+.blog-contenido-cuerpo .cuerpo-descripcion:hover,
+.blog-contenido-cuerpo .cuerpo-descripcion:active{
     transform: scale(0.95);
     background-color: transparent;
     backdrop-filter: blur(5px);

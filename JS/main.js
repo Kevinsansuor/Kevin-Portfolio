@@ -125,3 +125,21 @@ let link_behance = document.querySelectorAll('#link-behance');
 link_behance.forEach(e => e.onclick=()=>{
     window.open('https://www.behance.net/ingkevsan');
 })
+
+let vista_proyectos_orslo = document.querySelector('.proyecto-orslo');
+
+vista_proyectos_orslo.onclick =()=>{
+    window.open('https://kevinsansuor.github.io/ORSLO-CAFE/');
+}
+
+let vista_proyectos_alura = document.querySelector('.proyecto-alura');
+
+vista_proyectos_alura.onclick =()=>{
+    window.open('https://kevinsansuor.github.io/alurageek/');
+}
+
+let vista_proyectos_listatareas = document.querySelector('.proyecto-listatareas');
+
+vista_proyectos_listatareas.onclick =()=>{
+    window.open('https://kevinsansuor.github.io/lista-tareas/');
+}

@@ -133,6 +133,7 @@
     }
 }
 
+
 @media screen and (max-width:500px) {
 
 
@@ -142,6 +143,11 @@
 
     .card .tag-degrees{
         font-size: var(--letra_normal);
+    }
+
+    .card .acomodador {
+        padding-left: 10px;
+        padding-bottom: 25px;
     }
 }
 

@@ -21,8 +21,6 @@
     border-radius: 25px;
     padding-top: 25px;
 background: var(--color_azul);
-box-shadow:  20px 20px 120px #111c3564,
-             -20px -20px 120px #1726471c;
              border: var(--border_blanco);
 }
 

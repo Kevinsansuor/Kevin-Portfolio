@@ -48,17 +48,59 @@
 }
 
 .contenido-blog .blog-contenido-header{
-    width: 100%;
-    height: 300px;
-    background-color: var(--color_blanco);
+    height: auto;
+    background-color: var(--color_hueso);
     border-radius: 25px;
+    padding: 25px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.contenido-blog .blog-contenido-header .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--letra_header);
+    padding-bottom: 25px;
+    font-weight: 900;
+}
+
+.contenido-blog .blog-contenido-header .separador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: auto; margin-right: auto;
+    border: var(--border_mitad);
+    width: 80%;
+    border-radius: 25px;
+}
+
+.blog-contenido-header .subtitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--letra_32);
+    padding-bottom: 25px;
+}
+
+.blog-contenido-header .contenido-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 120%;
+    font-size: var(--letra_normal);
+    width: 80%;
+    margin-left: auto; margin-right: auto;
 }
 
 .contenido-blog .blog-contenido-cuerpo{
     display: flex;
     width: 100%;
     height: 100vh;
-    background: url(../ASSETS/abstract-minimal-plant-vase-copy-space.jpg)no-repeat;
+    background: url(../ASSETS/banner-blog-proceso-portafolio.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 25px;
@@ -68,15 +110,79 @@
 .blog-contenido-cuerpo .cuerpo-descripcion{
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: start;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: flex-start;
     margin-left: auto;
-    width: 25%;
-    background-color: var(--color_blanco);
-    padding: 25px;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(30,48,91,1) 80%);
+    padding: 50px;
+    backdrop-filter: blur(.5px);
     -webkit-border-radius: 25px;
 -moz-border-radius: 25px;
 border-radius: 25px;
+color: var(--color_blanco);
+transition:  .5s ease-in;
+cursor: pointer;
+}
+
+.blog-contenido-cuerpo .cuerpo-descripcion:hover{
+    transform: scale(0.95);
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+
+
+.cuerpo-descripcion .tag-descripcion{
+    color: var(--color_blanco);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    vertical-align: middle;
+    gap: 10px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.cuerpo-descripcion .titulo-principal{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.tag-descripcion .material-symbols-outlined.tag-icon{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+.cuerpo-descripcion .contenido-texto{
+    width: 88%;
+    line-height: 120%;
+}
+
+@media screen and (max-width:700px) {
+    .contenido-blog .blog-contenido-header .header {
+        font-size: 50px;
+    }
+
+    .blog-contenido-header .subtitulo {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+
 }
 
 @media screen and (max-width:550px) {
@@ -88,5 +194,40 @@ border-radius: 25px;
 
     .background-tittle .titulo{
         font-size: var(--letra_32);
+    }
+
+    .cuerpo-descripcion .titulo-principal {
+        font-size: var(--letra_32);
+    }
+
+    .blog-contenido-cuerpo .cuerpo-descripcion{
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .blog-contenido-header .subtitulo {
+        width: 100%;
+    }
+
+    .blog-contenido-header .contenido-header {
+        width: 100%;
+    }
+
+    .contenido-blog .blog-contenido-header {
+        padding: 25px 12.5px;
+    }
+
+    .blog-contenido-cuerpo .cuerpo-descripcion{
+        padding: 25px 12.5px;
+    }
+
+    .cuerpo-descripcion .contenido-texto {
+        width: 100%;
+        line-height: 120%;
+    }
+
+    .contenido-blog .blog-contenido-cuerpo{
+        height: 800px;
     }
 }

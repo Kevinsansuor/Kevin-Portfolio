@@ -231,4 +231,13 @@ cursor: pointer;
     .contenido-blog .blog-contenido-cuerpo{
         height: 800px;
     }
+
+    .contenido .contenido-blog{
+        padding: 12.5px;
+    }
+
+    .container .contenido.blog {
+        padding: 0;
+        margin: 0;
+    }
 }

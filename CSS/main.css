@@ -51,6 +51,33 @@
   
 
 
+  .hidden-obs{
+    opacity: 0;
+    transition: all 2s;
+    transform: translateX(-100px);
+    background-color: var(--color_blanco);
+    filter: blur(5px);
+  }
+
+  .show-obs{
+    opacity: 1;
+    transform: translateX(0px);
+    position: relative;
+    background-color: inherit;
+    filter: blur(0px);
+  }
+
+  .hidden-obs-certificados{
+    opacity: 0;
+    transition: all 2s linear;
+    transform: translateY(250px);
+  }
+
+  .show-obs-certificados{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
 ul{
     color: inherit;
 }
@@ -79,6 +106,7 @@ body{
     width: 100%;
     height: 100vh;
     overflow: auto;
+    overflow-x: hidden;
 }
 
 .accordion {
